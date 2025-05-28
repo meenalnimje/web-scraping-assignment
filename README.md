@@ -1,6 +1,6 @@
 # 🔍 Reddit Mention Scraper
 
-A full-stack web application to scrape Reddit mentions of a company or person from the past 7 days using Puppeteer and display them in a sorted list by upvotes.
+A web scraper to scrape out Reddit mentions of a company or person from the past 7 days using Puppeteer and display them in a sorted list by upvotes.
 
 ## Demo
 
@@ -21,7 +21,6 @@ A full-stack web application to scrape Reddit mentions of a company or person fr
 - *Frontend:* React.js (with basic styling)
 - *Backend:* Node.js + Express
 - *Web Scraping:* Puppeteer + Stealth Plugin
-- 
 ---
 
 ## ⚙ Setup Instructions
@@ -31,12 +30,13 @@ A full-stack web application to scrape Reddit mentions of a company or person fr
 ```bash
 git clone https://github.com/meenalnimje/web-scraping-assignment.git
 open folder web-scraping-assignment
+Run the command npm install
 ```
 
 ### 2. Install Backend Dependencies
 ```bash
 cd Backend
-npm install
+Run the command npm install
 
 Ensure that these dependencies are installed 
   "cors": "^2.8.5",
@@ -57,7 +57,7 @@ Server runs at: http://localhost:5000
 ### 4. Install Frontend Dependencies
 ```bash
 cd ../frontend
-npm install
+Run the command npm install
 ```
 
 ### 5. Start React Frontend
