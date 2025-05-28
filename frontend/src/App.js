@@ -30,7 +30,7 @@ function App() {
 
     try {
       const res = await fetch(
-        `https://web-scraping-assignment.vercel.app/api/reddit?query=${encodeURIComponent(
+        `http://localhost:5000/api/reddit?query=${encodeURIComponent(
           query
         )}`
       );
