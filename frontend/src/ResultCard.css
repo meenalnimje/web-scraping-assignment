@@ -1,0 +1,28 @@
+.result-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #fafafa;
+  transition: box-shadow 0.2s;
+}
+
+.result-card:hover {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.result-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.result-title:hover {
+  text-decoration: underline;
+}
+
+.result-meta {
+  font-size: 14px;
+  color: #666;
+  margin-top: 4px;
+}
