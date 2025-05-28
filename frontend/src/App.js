@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import ResultCard from "./ResultCard";
 
-// Utility to convert shorthand counts like "1.8k" to 1800
+// Utility to convert shorthand counts like "1.8k" to 1800 
 function parseCount(countStr) {
   if (!countStr) return 0;
   const lower = countStr.toLowerCase().trim();

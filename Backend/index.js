@@ -10,7 +10,7 @@ const PORT = 5000;
 
 app.use(
   cors({
-    origin: `${process.env.FRONTEND_URL}`,
+    origin: "http://localhost:3000",
   })
 );
 // Delay utility
